@@ -5,8 +5,15 @@
 **Outline for App Project**.
 
 Project description - Automatic Fluid Tracker App
+
 Problem addressing - Need for automatic tracking for all fluids
-Platform - Android Studio Front end support - HTML, CSS, Java, Back end support - Java
+
+Platform - Android Studio
+
+Front end support - HTML, CSS, Java
+
+Back end support - Java
+
 Functionality Design (wireframes)
 
 **Acknowledgements**
