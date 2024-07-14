@@ -10,24 +10,29 @@ Platform - Android Studio Front end support - HTML, CSS, Java, Back end support 
 Functionality Design (wireframes)
 
 **Acknowledgements**
+
 Awesome Readme Templates
 Awesome README
 How to write a Good readme
 
 **Used By**
+
 This project is used by the following companies:
 Saint Leo University
 PCS Services of Florida
 
 **Support**
+
 For support, email fake@fake.com or join our Slack channel.
 
 **Tech Stack**
+
 Client: React, Redux, TailwindCSS
 
 **Server:** Node, Express
 
 **API Reference**
+
 Get all items
   GET /api/items
 Parameter	Type	Description
@@ -40,14 +45,17 @@ add(num1, num2)
 Takes two numbers and returns the sum.
 
 **Authors**
+
 @lababren
 
 **Roadmap**
+
 Additional browser support
 
 Add more integrations
 
 **Deployment**
+
 To deploy this project run
 
   npm run deploy
