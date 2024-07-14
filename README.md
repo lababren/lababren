@@ -1,5 +1,6 @@
-## Hi there 👋
-Fluid Tracker App Project Title
+## Hi there 👋 My name is LaBarron Abren
+
+Title and Description: Fluid Tracker App Project Title
 
 Outline for App Project.
 
