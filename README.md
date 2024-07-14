@@ -1,32 +1,33 @@
 ## Hi there 👋 My name is LaBarron Abren
 
-Title and Description: Fluid Tracker App Project Title
+**Title and Description:** Fluid Tracker App Project Title
 
-Outline for App Project.
+**Outline for App Project**.
 
 Project description - Automatic Fluid Tracker App
 Problem addressing - Need for automatic tracking for all fluids
 Platform - Android Studio Front end support - HTML, CSS, Java, Back end support - Java
 Functionality Design (wireframes)
 
-Acknowledgements
+**Acknowledgements**
 Awesome Readme Templates
 Awesome README
 How to write a Good readme
-Used By
-This project is used by the following companies:
 
+**Used By**
+This project is used by the following companies:
 Saint Leo University
 PCS Services of Florida
-Support
+
+**Support**
 For support, email fake@fake.com or join our Slack channel.
 
-Tech Stack
+**Tech Stack**
 Client: React, Redux, TailwindCSS
 
-Server: Node, Express
+**Server:** Node, Express
 
-API Reference
+**API Reference**
 Get all items
   GET /api/items
 Parameter	Type	Description
@@ -38,14 +39,15 @@ id	string	Required. Id of item to fetch
 add(num1, num2)
 Takes two numbers and returns the sum.
 
-Authors
+**Authors**
 @lababren
-Roadmap
+
+**Roadmap**
 Additional browser support
 
 Add more integrations
 
-Deployment
+**Deployment**
 To deploy this project run
 
   npm run deploy
