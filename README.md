@@ -1,12 +1,12 @@
 ## Hi there 👋 My name is LaBarron Abren
 
-**Title and Description:** Fluid Tracker App Project Title
+**Title and Description:** Hydration Tracker App
 
 **Outline for App Project**.
 
-Project description - Automatic Fluid Tracker App
+Project description - Track Hydration App
 
-Problem addressing - Need for automatic tracking for all fluids
+Problem addressing - Need to track hydration as well as reset counter daily
 
 Platform - Android Studio
 
@@ -69,14 +69,4 @@ To deploy this project run
 <!--
 **lababren/lababren** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
