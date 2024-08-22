@@ -1,94 +1,82 @@
-App Outline
+## Hi there 👋 My name is LaBarron Abren
 
-1.	Description
-   
-  a.	Name: Stay Hydrated
-  
-  b.	Purpose: To assist users track daily fluid intake using goals and alerts.
-  
-  c.	Target Audience: Users who are concerned with proper hydration
+**Title and Description:** Fluid Tracker App Project Title
 
-3.	Problem Addressing
- 
-  a.	Identified Problem
-  
-    i.	Many individuals struggle to maintain adequate hydration due to busy schedules, lack of awareness, or simply forgetting to drink water throughout the day.
-  
-    ii.	Poor hydration can lead to fatigue, reduced cognitive function, and other health issues, affecting overall well-being and productivity.
- 
-  b.	Proposed Solution
-  
-    i.	HydroTrack provides automated water consumption tracking via a smart water bottle and sends reminders to the user's mobile app to ensure they stay 
-    hydrated. 
+**Outline for App Project**.
 
-4.	Platform
+Project description - Automatic Fluid Tracker App
 
-  a.	Platforms: Android and iOS
- 
-  b.	Firebase Realtime Database for storing user data.
- 
-  c.	Cloud Integration
-  
-    i.	AWS or Google Cloud for scalable storage and analytics
-  
-    ii.	Cloud messaging for notifications. 
- 
-  d.	Security & Privacy
- 
-    i.	 Data Encryption 
+Problem addressing - Need for automatic tracking for all fluids
 
-  e.	Privacy Policies
-  
-    i.	Personalization for goals, weight, age, etc.
-    
-    ii.	Optional sync to other apps.
-  
-  f.	User Profile Screen
-  
-    i.	Goals
-    
-    ii.	Personal data (update weight, activity level, etc.).
-    
-    iii.	Calendar view of past water intake.
+Platform - Android Studio
 
+Front end support - HTML, CSS, Java
 
-5.	 Front/Back End Support
+Back end support - Java
 
-  a.	(Front) UI Design - The user interface is designed with simplicity and ease of use in mind, utilizing Material Design principles to ensure a consistent and 
-  intuitive experience. 
-  
-  b.	Technologies - The UI is built using XML for layout, with Java/Kotlin handling the logic behind user interactions.
-  
-  c.	(Back) Firebase - is used for real-time database management and user authentication, ensuring secure storage and quick access to user data.
-  
-  d.	Technologies - Firebase Realtime Database Managers handle server-side logic, and database, allowing for scalable and flexible data handling
+Functionality Design (wireframes)
 
-6.	Functionality
- 
-  a.	Hydration Tracking
-  
-    i.	Manual input of fluid tracking
-    
-    ii.	Integrated synching with smart bottles for optional automatic fluid tracking
-    
-    iii.	Daily water tracking with auto-reset for next day
-    
-    iv.	User defined reminders and notifications
-    
-    v.	Integration with Wearables & Smart Devices 
-    
-    vi.	Water tracking button
-    
-    vii.	Total progress for each day
-    
-7.	Design (Wireframes)
- 
-  a.	The wireframes were created to visualize the app’s layout and user flow before development began.
-  
-  b.	Initial hand-drawn sketches were refined into digital wireframes using Justinmind, ensuring all user interactions were mapped out clearly. 
-  
-  c.	Screen Layouts
-  
-    i.	Home Screen displays the user's current water intake, progress toward daily goals, and quick access to other features.
-    
-    ii.	Settings Screen allows users to adjust their hydration goals, connect/disconnect the smart bottle, and manage notifications.
+**Acknowledgements**
+
+Awesome Readme Templates
+Awesome README
+How to write a Good readme
+
+**Used By**
+
+This project is used by the following companies:
+Saint Leo University
+PCS Services of Florida
+
+**Support**
+
+For support, email fake@fake.com or join our Slack channel.
+
+**Tech Stack**
+
+Client: React, Redux, TailwindCSS
+
+**Server:** Node, Express
+
+**API Reference**
+
+Get all items
+  GET /api/items
+Parameter	Type	Description
+api_key	string	Required. Your API key
+Get item
+  GET /api/items/${id}
+Parameter	Type	Description
+id	string	Required. Id of item to fetch
+add(num1, num2)
+Takes two numbers and returns the sum.
+
+**Authors**
+
+@lababren
+
+**Roadmap**
+
+Additional browser support
+
+Add more integrations
+
+**Deployment**
+
+To deploy this project run
+
+  npm run deploy
+<!--
+**lababren/lababren** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
