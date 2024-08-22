@@ -1,0 +1,66 @@
+package com.lbabren.watertracker
+
+import  android.os.Bundle
+
+import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import java.time.LocalDate
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_main)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
+
+// shared preferences
+val sharedPreferences = getSharedPreferences("SP_INFO", MODE_PRIVATE)
+val waterTotal = sharedPreferences.getString("WATERTOTAL", "0")
+val editor = sharedPreferences.edit()
+
+
+// begin new codes
+val addButton: Button = this.findViewById(R.id.addWater_Button)
+val watertotalText: TextView = this.findViewById(R.id.waterTotal_textView)
+watertotalText.text = waterTotal
+addButton.setOnClickListener {
+    watertotalText.text = (Integer.parseInt(watertotalText.text as String) + 1).toString()
+    editor.putString("WATERTOTAL", watertotalText.text as String)
+    editor.commit()
+    if (Integer.parseInt(watertotalText.text as String) > 8){
+        Toast.makeText(this, "Keep up the good work!" , Toast.LENGTH_LONG).show()
+    }
+}
+
+// time and date
+
+val currentDate = LocalDate.now().toString()
+val date_TextView: TextView = findViewById(R.id.date_textView)
+var pastTime = sharedPreferences.getString("PASTIME", "2024-07-05").toString()
+if (pastTime != currentDate) {
+    editor.putString("PASTIME", currentDate.toString())
+    editor.putString("WATERTOTAL", "0")
+    editor.commit()
+    watertotalText.text = "0"
+}
+date_TextView.text = currentDate.toString()
+
+// reset counter
+val clearButton: Button = findViewById(R.id.clear_text)
+clearButton.setOnClickListener {
+    watertotalText.text = "0"
+    editor.putString("WATERTOTAL", "0")
+    editor.commit()
+}
+
+}
+}
